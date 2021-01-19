@@ -248,8 +248,8 @@ hr{
   margin-top: 6.8vw;
 }
 
-persona-ul2{
-  width: 1012px;
+.persona-ul2{
+  width: 1140px;
   height: 466px;
   font-family: Brown;
   font-style: normal;
@@ -257,6 +257,7 @@ persona-ul2{
   font-size: 22px;
   line-height: 50px;
   letter-spacing: -0.2408px;
+  list-style-type: circle;
   color: #000000;
 }
 
@@ -327,7 +328,7 @@ persona-ul2{
 .div-sec{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   //padding: 15px;
 
   //display: grid;
@@ -405,7 +406,7 @@ persona-ul2{
   font-family: Brown;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 19.4px;
   line-height: 19px;
   letter-spacing: -0.2408px;
   color: #014343;
