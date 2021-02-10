@@ -14,6 +14,7 @@ import { IqComponent } from './iq/iq.component';
 import { SprinkbokComponent } from './sprinkbok/sprinkbok.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NavbarblackComponent } from './navbarblack/navbarblack.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NavbarblackComponent } from './navbarblack/navbarblack.component';
     IqComponent,
     SprinkbokComponent,
     NavbarComponent,
-    NavbarblackComponent
+    NavbarblackComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
