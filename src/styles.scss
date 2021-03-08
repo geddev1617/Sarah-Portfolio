@@ -31,7 +31,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lobster|Nunito+Sans|PT+Sans|Righteous|Roboto+Condensed|Saira+Stencil+One|Tangerine&display=swap');
 //@import '~ngx-toastr/toastr';
-html, body { height: 100%; }
+
+
+html, body { 
+  height: 100%;
+  font-size: 16px;
+}
+
 body { margin: 0}
 
 $colorScheme : (
