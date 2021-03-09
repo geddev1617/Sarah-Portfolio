@@ -1134,13 +1134,18 @@ line-height: 177%;
 }
 
 .wireframe-img-png{
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
 @media screen and (max-width: 599px){
   .wf-img-container1, .wf-img-container2{
     display: none;
+  }
+
+  .wireframe-img-png{
+    max-width: 90%;
+    height: auto;
   }
 }
 
@@ -1668,15 +1673,98 @@ border: 1px solid #DADADA;
   color: #000000;
 }
 
+.discover-container{
+  margin-top: 10%;
+}
+
+.discover-text{
+  width: 158px;
+  height: 29px;
+  font-family: Brown;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 122%;
+  color: #333333;
+}
+
+.social-media-acc{
+  margin-top: 48px;
+}
+
+.sm-links{
+  width: 129px;
+  height: 44px;
+  font-family: Brown;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 122%;
+  text-decoration-line: underline;
+  padding-right: 30px;
+  color: #333333;
+}
+
+.sarah-mail{
+  width: 536px;
+  height: 44px;
+  margin-top: 48px;
+  font-family: Brown;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 122%;
+  color: #333333;
+}
+
+.footer5{
+  margin-top: 4%;
+}
+
+.p-cright{
+  width: 272px;
+  height: 17px;
+  font-family: Brown;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 122%;
+  color: #333333;
+}
+
 @media screen and (max-width: 768px){
-  .performance-text, .conclusion-text, .f-thought-text{
+  .performance-text, .conclusion-text, .f-thought-text, .discover-text, .sm-links, .sarah-mail{
     width: 100%;
     font-size: clamp(1.5rem, 2rem, 3vw);
   }  
 
   .performance-text2, .conclusion-text2, .f-thought-text2{
     width: 100%;
-    font-size: clamp(1rem, 1.5rem, 3vw);
-    line-height: 200%;
+    font-size: clamp(1rem, 1.5rem, 2.5vw);
+    line-height: 180%;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .discover-container{
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .discover-container{
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .discover-container{
+    margin-top: 60%;
+  }
+
+  .sm-links, .sarah-mail{
+    width: 100%;
+    font-size: clamp(1.3rem, 1.5rem, 2vw);
+    line-height: 80%;
   }
 }
