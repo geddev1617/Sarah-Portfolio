@@ -1286,6 +1286,8 @@ color: #014343;
   }
 }
 
+// typograpghy section
+
 .typography-div{
   margin-top: 10%;
   display: flex;
@@ -1318,7 +1320,7 @@ color: #014343;
 .museo-div{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 4%;
 }
 
@@ -1409,7 +1411,7 @@ border: 1px solid #DADADA;
 .illustration-div{
   margin-top: 4%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
