@@ -20,8 +20,14 @@ hr{
 }
 
 .car-shop-text{
-  font: normal 500 4.2857vw;
-  width: 32.0238vw;
+  // font: normal 500 4.2857vw;
+  // width: 32.0238vw;
+  width: 538px;
+font-family: TT Norms Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 4.5rem;
+// line-height: 86px;
 }
 
 @media screen and (max-width:599px){
@@ -168,7 +174,7 @@ hr{
   font-family: Brown;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 23.53px;
   letter-spacing: -0.2408px;
   color: #000000;
@@ -188,7 +194,7 @@ hr{
   font-family: Brown;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 50px;
   letter-spacing: -0.2408px;
   color: #000000;
